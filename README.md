@@ -1,9 +1,16 @@
-# Test Web Chess
+# Web Chess
 
-A new website created with MK-AI.
+A lightweight, browser-based chess game built with vanilla JavaScript, HTML, and CSS.
 
-## Starter brief
+## How to Play
+1. Open `index.html` in any modern web browser.
+2. White starts first.
+3. Click a piece to select it (highlighted in green).
+4. Click an empty square or an opponent's piece to move or capture.
+5. Click the **Reset Game** button to start over.
 
-Start with a clear, welcoming website.
-
-Created with MK-AI. Open the repository in the studio to keep building.
+## Features
+- No external dependencies.
+- Responsive design for mobile and desktop.
+- Simple turn management logic.
+- High-contrast Unicode chess pieces.
