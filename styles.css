@@ -45,9 +45,21 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 44px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    position: relative;
+}
+
+.piece {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    pointer-events: none;
+    transition: transform 0.25s ease-in-out;
+    z-index: 1;
 }
 
 .square.light { background-color: var(--square-light); }
@@ -89,6 +101,8 @@ button:hover {
     .square {
         width: 11vw;
         height: 11vw;
+    }
+    .piece {
         font-size: 8vw;
     }
 }
